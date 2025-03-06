@@ -1,0 +1,32 @@
+table {background-color:#FFC;
+   
+    width:450;
+    margin:auto
+    }
+    
+    tr td {
+    border:solid;
+    border-color:#F00;
+    }
+    h2{text-align:center;
+    }
+
+    p, h2{text-align:center;
+        color:red;
+        }
+
+    div {width:450px;
+            margin:auto;
+            border-color:#F00;
+            border-style:dashed;
+            }
+            
+    h1 {color:black;
+            font-family:Verdana, Geneva, sans-serif ;
+            
+    }
+
+    input {text-align:center;
+    }
+
+  

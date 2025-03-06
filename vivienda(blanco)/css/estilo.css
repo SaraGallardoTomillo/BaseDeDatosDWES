@@ -1,0 +1,42 @@
+/* General */
+   body {font-family: verdana,arial, sans-serif; font-size: 10pt;}
+
+/* Contenido */
+   h1 {font-size: 16pt; font-weight: bold; color: #0066CC;
+       text-align: center;
+   }
+
+  #barrasuperior{
+   text-align: center;
+  }
+   h2 {font-size: 12pt; font-weight: bold; font-style: italic; color: black;}
+   h3 {font-size: 10pt; font-weight: bold; color: black;}
+
+/* Tablas */
+   th {font-size: 10pt; font-weight: bold; color: white; background: #0066CC; text-align: left;}
+   td {font-size: 10pt; background: #CCCCCC;}
+
+ 
+   #top_menu ul {
+      list-style-type: none; /* Quita las viñetas */
+      display: flex; /* Convierte la lista en un contenedor flex */
+      justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    }
+    #top_menu li {
+      display: inline; /* Alinea los ítems uno al lado del otro */
+      margin-right: 20px; /* Espacio entre los ítems (ajústalo según tus necesidades) */
+    }
+    
+    #top_menu a {
+      text-decoration: none; /* Quita el subrayado de los enlaces */
+      color: #0066CC; /* Color del texto (ajústalo según tu diseño) */
+    }
+
+    img{
+      width: 180px; 
+      height: 90px;
+    }
+
+    .error{
+      color:red;
+    }

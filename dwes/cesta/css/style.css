@@ -1,0 +1,166 @@
+/* Estilos de error */
+.error {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 0.8em;
+  color: darkred;
+}
+
+/* Estilos del formulario de login */
+#login fieldset {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  margin-left: -200px;
+  height: 200px;
+  margin-top: -100px;
+  padding: 10px;
+  border: 1px solid lightslategray;
+  background-color: lightblue;
+}
+
+#login legend, #login legend {
+  font-family: Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+/* Estilos de usuario */
+.user p {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  color: black;
+}
+
+.user span {
+  font-family: Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgb(36, 36, 220);
+}
+fieldset {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  margin-left: -200px;
+  height: 200px;
+  margin-top: -100px;
+  padding: 10px;
+  border: 1px solid lightslategray;
+  background-color: lightblue;
+}
+
+legend {
+  font-family: Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: lightslategray;
+}
+
+/* Estilos de campos */
+#login .campo {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+#login label {
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+/* Estilos de inputs */
+#login input[type="text"], 
+#login input[type="password"] {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 0.8em;
+  line-height: 140%;
+  color: #000; 
+  padding: 3px; 
+  border: 1px solid black;
+  height: 18px;
+  width: 220px;
+}
+
+#login input[type="submit"] {
+  width: 100px;
+  height: 30px;
+  padding-left: 0px;
+}
+
+/* Estilos del encabezado */
+#encabezado {
+  padding: 0 10px;
+  border: 1px solid lightslategrey;
+  border-radius: 2px;
+  background-color: lightslategray;
+}
+
+#encabezado h1 {
+  margin: 0; 
+  padding: 10px 0; 
+  color: white;
+}
+
+/* Estilos de botones de añadir */
+.add {
+  background-color: lightblue;
+  color: black;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+
+/* Estilos de la cesta */
+#cesta {
+  float: right;
+  width: 12em;
+  color: white;
+  background-color: lightslategray;
+  border-radius: 0 0 5px 5px;
+}
+
+.cesta input[type="submit"] {
+  background-color: lightblue;
+  color: black;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+
+/* Estilos para botones deshabilitados */
+.cesta input[type="submit"]:disabled {
+  color: red;
+}
+
+/* Estilos divisor */
+.divisor {
+  clear: both;
+  height: 0;
+  font-size: 1px;
+  line-height: 0px;
+}
+
+/* Estilos de productos */
+#productos {
+  height: 550px;
+  overflow: scroll;
+}
+
+/* Estilos del pie */
+#pie {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  padding: 10px;
+  background-color: lightslategray;
+  border: 1px solid lightslategrey;
+  border-radius: 5px;
+}
+
+#pie input[type="submit"] {
+  background-color: lightgrey;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}

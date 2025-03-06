@@ -1,0 +1,18 @@
+table {
+	background-color:#FFC;
+	margin:auto
+}
+h2,h3{
+	text-align:center;
+}
+tr,td {
+	border:solid;
+	border-color:#F00;
+	text-align:center;
+}
+input {background-color:#FFC;
+}
+div{
+	margin-top:50px;
+	margin-bottom: 50px;
+}
